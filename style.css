@@ -687,7 +687,6 @@ Team Member
 -------------------------------------------------------------------*/
 .team-wrapper {
     background: #fff;
-    border: 1px solid #eee;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -695,7 +694,6 @@ Team Member
     transition: all 0.3s;
 }
 .team-wrapper:hover {
-    border: 1px solid transparent;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .team-wrapper img {
