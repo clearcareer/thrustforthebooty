@@ -1,0 +1,112 @@
+/*==============================================
+/* PRESET COLOR
+/* You can change your brand color from here!
+================================================*/
+
+
+/* Theme primary color */
+a:focus,
+a:hover,
+.brand-color,
+.brand-icon,
+.copy-text a,
+.countdown li span,
+.team-title h3 a:hover,
+.side-nav li.current a,
+.side-nav li a:hover,
+.booking-form-wrapper h3,
+.social-link li a i:hover,
+.team-social-links li a:hover,
+.secondary-footer ul li a:hover,
+.pricing-table:hover .brand-hover,
+.carousel-testimonial .carousel-control:focus, 
+.carousel-testimonial .carousel-control:hover,
+.border-tab.transparent-nav .nav-tabs>li.active>a, 
+.border-tab.transparent-nav .nav-tabs>li.active>a:focus, 
+.border-tab.transparent-nav .nav-tabs>li.active>a:hover, 
+.border-tab.transparent-nav .nav-tabs.nav-justified>.active>a, 
+.border-tab.transparent-nav .nav-tabs.nav-justified>.active>a:focus, 
+.border-tab.transparent-nav .nav-tabs.nav-justified>.active>a:hover {
+    color: #00b0ff;
+}
+
+
+/* Theme primary background color */
+.btn,
+.btn:hover,
+.brand-bg,
+.location-info,
+.brand-hover:hover,
+.tt-preloader-wave:before,
+.tt-preloader-wave:after,
+.static-menu li a.join-btn,
+.booking-form-wrapper h3:before,
+.pricing-table:hover .brand-hover,
+#preloader .progress .indeterminate,
+[type="radio"]:checked + label:after,
+.feature-accordion.brand-accordion .panel-title a,
+.gallery-thumb .flex-control-thumbs .flex-active {
+    background-color: #00b0ff;
+}
+
+
+
+/*Blog overlay background color*/
+.latest-news-card .card-reveal.overlay-bg {
+    background-color: rgba(0, 176, 255, 0.95);
+}
+
+
+/* Tab border bottom color */
+.border-tab.transparent-nav .nav-tabs>li.active::after {
+    border-bottom: 3px solid #00b0ff;
+}
+
+[type="radio"]:checked + label:after {
+    border: 2px solid #00b0ff;
+}
+
+
+
+/*Form Border Color
+-------------------------------------------------------*/
+input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #00b0ff;
+    box-shadow: 0 1px 0 0 #00b0ff; 
+}
+
+input[type=text]:focus:not([readonly]) + label, 
+input[type=password]:focus:not([readonly]) + label, 
+input[type=email]:focus:not([readonly]) + label, 
+input[type=url]:focus:not([readonly]) + label, 
+input[type=time]:focus:not([readonly]) + label, 
+input[type=date]:focus:not([readonly]) + label, 
+input[type=datetime-local]:focus:not([readonly]) + label, 
+input[type=tel]:focus:not([readonly]) + label, 
+input[type=number]:focus:not([readonly]) + label, 
+input[type=search]:focus:not([readonly]) + label, 
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #00b0ff !important; 
+}
+
+
+
+/*preloader preset*/
+.loader1,
+.loader1 div,
+.loader2,
+.loader2 div,
+.loader3,
+.loader3 div {
+	border-top-color: #00b0ff;
+}
