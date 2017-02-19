@@ -100,6 +100,10 @@ a,
     transition: all 0.3s ease; 
 }
 
+.navbar-brand-2 {
+    padding: 30px 15px;
+}
+
 
 /* ================ Typography ================== */
 
@@ -657,6 +661,9 @@ thead {
 }
 .banner-3 {
     background-image: url("assets/img/event-banner-3.jpg");  
+}
+.banner-4 {
+    background-image: url("assets/img/assets/img/background1.jpg"); 
 }
 
 
@@ -2039,6 +2046,10 @@ img {
         display: inline-block;
         font-size: 15px;
         width: 40px;
+    }
+
+    #brand {
+        display:none;
     }
 
 
