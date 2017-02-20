@@ -32,6 +32,7 @@
     18.0 - Material CSS Customization
     19.0 - Navigation Styles
     20.0 - Preloader
+    21.0 - CUSTOM STYLES (IZZY)
 
 -------------------------------------
 [ END CSS TABLE CONTENT ]
@@ -2157,5 +2158,10 @@ img {
 }
 
 
+/* ================= CUSTOM STYLES ==================== */
+
+#joinbutton {
+    margin-bottom:50px;
+}
 
 
