@@ -45,10 +45,10 @@
 			
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {
-				days = (String(days).length >= 2) ? days : "0" + days;
-				hours = (String(hours).length >= 2) ? hours : "0" + hours;
-				minutes = (String(minutes).length >= 2) ? minutes : "0" + minutes;
-				seconds = (String(seconds).length >= 2) ? seconds : "0" + seconds;
+				days = (String(days).length <= 9) ? days : "0" + days;
+				hours = (String(hours).length <= 9) ? hours : "0" + hours;
+				minutes = (String(minutes).length <= 9) ? minutes : "0" + minutes;
+				seconds = (String(seconds).length <= 9) ? seconds : "0" + seconds;
 			}
 			
 			//update the countdown's html values.
